@@ -4,13 +4,17 @@
 
 ### Powershell
 * wsl2
-    * `$ wsl --list --online`
-    * `$ wsl --install -d <DistroName>`
-        > This command will enable the required optional components, download the latest Linux kernel, set WSL 2 as your default, and install a Linux distribution for you
-    * `$ wsl -l -v`
-    * `$ wsl --shutdown`
-    * `$ wsl --update`
-    * `$ wsl --set-default-version <Version#>`
+  * `$ wsl --list --online`
+  * `$ wsl --install -d <DistroName>`
+      > This command will enable the required optional components, download the latest Linux kernel, set WSL 2 as your default, and install a Linux distribution for you
+  * `$ wsl -l -v`
+  * `$ wsl --shutdown`
+  * `$ wsl --update`
+  * `$ wsl --set-default-version <Version#>`
+* [disable wslg](https://github.com/microsoft/wslg#wslg-system-distro)
+  * c:\users\MyUser\.wslconfig
+      [wsl2]
+      guiApplications=false 
 
 ### Microsoft Store
 * App Installer (aka winget)
@@ -27,6 +31,7 @@
 * rickbutton.workspacer
 * Docker.DockerDesktop
 * Figma.Figma
+* marha.VcXsrv
 
 ### Installer
 * Adobe PS/AI/XD
