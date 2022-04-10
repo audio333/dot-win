@@ -12,9 +12,7 @@
   * `$ wsl --update`
   * `$ wsl --set-default-version <Version#>`
 * [disable wslg](https://github.com/microsoft/wslg#wslg-system-distro)
-  * c:\users\MyUser\.wslconfig
-      [wsl2]
-      guiApplications=false 
+  > c:\users\MyUser\[.wslconfig](https://github.com/audio333/dot-win/.wslconfig)
 
 ### Microsoft Store
 * App Installer (aka winget)

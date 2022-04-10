@@ -1,0 +1,3 @@
+# C:\Users\myuser
+[wsl2]
+guiApplications=false  # disable wslg
